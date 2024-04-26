@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "ui:build": "pnpm --filter ui build",
+    "docs:build": "pnpm --filter docs build",
+    "build": "pnpm -r run build"
+  }
+}
